@@ -1,0 +1,13 @@
+[
+	{
+		"id": 4,
+		"firstname": "sdsfsdfffffs",
+		"lastname": "ffffffffffsdsf",
+		"email": "john.doe@example.com",
+		"phone": "+998987654321",
+		"date_of_birth": "20-04-1998",
+		"address": "221B Baker Street, London",
+		"created_at": "2022-08-10T06:25:55.941Z",
+		"updated_at": "2022-08-10T06:25:55.941Z"
+	}
+]

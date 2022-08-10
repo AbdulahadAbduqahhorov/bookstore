@@ -1,0 +1,38 @@
+[
+	{
+		"id": 11,
+		"isbn": "yanwewfegi",
+		"title": "O'tksdasdan nasdaew",
+		"gener": "Badiy dasdaadabiyot",
+		"description": "sdfdasdssdfsfgfdnd",
+		"author": "O'tkir Hodasdshimov",
+		"pulish_year": 2012,
+		"cover_photo_url": "/dasd/asdasd/ads",
+		"created_at": "2022-08-09T11:49:05.296Z",
+		"updated_at": "2022-08-09T11:49:05.296Z"
+	},
+	{
+		"id": 1,
+		"isbn": "qalesan",
+		"title": "O'tksdasdan nasdaew",
+		"gener": "Badiy dasdaadabiyot",
+		"description": "sdfdasdssdfsfgfdnd",
+		"author": "O'tkir Hodasdshimov",
+		"pulish_year": 2012,
+		"cover_photo_url": "/dasd/asdasd/ads",
+		"created_at": "2022-08-10T04:34:38.797Z",
+		"updated_at": "2022-08-10T04:34:38.797Z"
+	},
+	{
+		"id": 2,
+		"isbn": "ddfsd",
+		"title": "O'tksdasdan nasdaew",
+		"gener": "Badiy dasdaadabiyot",
+		"description": "sdfdasdssdfsfgfdnd",
+		"author": "O'tkir Hodasdshimov",
+		"pulish_year": 2012,
+		"cover_photo_url": "/dasd/asdasd/ads",
+		"created_at": "2022-08-10T04:34:42.701Z",
+		"updated_at": "2022-08-10T04:34:42.701Z"
+	}
+]
