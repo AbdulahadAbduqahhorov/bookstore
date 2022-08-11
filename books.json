@@ -1,8 +1,8 @@
 [
 	{
 		"id": 11,
-		"isbn": "yanwewfegi",
-		"title": "O'tksdasdan nasdaew",
+		"isbn": "456465",
+		"title": "Nur",
 		"gener": "Badiy dasdaadabiyot",
 		"description": "sdfdasdssdfsfgfdnd",
 		"author": "O'tkir Hodasdshimov",
@@ -12,9 +12,9 @@
 		"updated_at": "2022-08-09T11:49:05.296Z"
 	},
 	{
-		"id": 1,
-		"isbn": "qalesan",
-		"title": "O'tksdasdan nasdaew",
+		"id": 12,
+		"isbn": "3453453",
+		"title": "Ikki eshik orasi",
 		"gener": "Badiy dasdaadabiyot",
 		"description": "sdfdasdssdfsfgfdnd",
 		"author": "O'tkir Hodasdshimov",
@@ -24,9 +24,9 @@
 		"updated_at": "2022-08-10T04:34:38.797Z"
 	},
 	{
-		"id": 2,
+		"id": 13,
 		"isbn": "ddfsd",
-		"title": "O'tksdasdan nasdaew",
+		"title": "Iymon va Huzun",
 		"gener": "Badiy dasdaadabiyot",
 		"description": "sdfdasdssdfsfgfdnd",
 		"author": "O'tkir Hodasdshimov",
@@ -34,5 +34,113 @@
 		"cover_photo_url": "/dasd/asdasd/ads",
 		"created_at": "2022-08-10T04:34:42.701Z",
 		"updated_at": "2022-08-10T04:34:42.701Z"
+	},
+	{
+		"id": 14,
+		"isbn": "ddfsd",
+		"title": "Xadis va hayot ",
+		"gener": "Badiy dasdaadabiyot",
+		"description": "sdfdasdssdfsfgfdnd",
+		"author": "O'tkir Hodasdshimov",
+		"pulish_year": 2012,
+		"cover_photo_url": "/dasd/asdasd/ads",
+		"created_at": "2022-08-10T10:55:50.147Z",
+		"updated_at": "2022-08-10T10:55:50.147Z"
+	},
+	{
+		"id": 15,
+		"isbn": "ddfsd",
+		"title": "Iymon",
+		"gener": "Badiy dasdaadabiyot",
+		"description": "sdfdasdssdfsfgfdnd",
+		"author": "O'tkir Hodasdshimov",
+		"pulish_year": 2012,
+		"cover_photo_url": "/dasd/asdasd/ads",
+		"created_at": "2022-08-10T10:55:50.698Z",
+		"updated_at": "2022-08-10T10:55:50.698Z"
+	},
+	{
+		"id": 16,
+		"isbn": "ddfsd",
+		"title": "Alvido vatan",
+		"gener": "Badiy dasdaadabiyot",
+		"description": "sdfdasdssdfsfgfdnd",
+		"author": "O'tkir Hodasdshimov",
+		"pulish_year": 2012,
+		"cover_photo_url": "/dasd/asdasd/ads",
+		"created_at": "2022-08-10T10:55:51.250Z",
+		"updated_at": "2022-08-10T10:55:51.250Z"
+	},
+	{
+		"id": 17,
+		"isbn": "34593455",
+		"title": "Diqqat",
+		"gener": "Badiy dasdaadabiyot",
+		"description": "sdfdasdssdfsfgfdnd",
+		"author": "O'tkir Hodasdshimov",
+		"pulish_year": 2012,
+		"cover_photo_url": "/dasd/asdasd/ads",
+		"created_at": "2022-08-10T10:55:51.508Z",
+		"updated_at": "2022-08-10T10:55:51.508Z"
+	},
+	{
+		"id": 18,
+		"isbn": "2342353453",
+		"title": "Atom odatlar",
+		"gener": "Badiy dasdaadabiyot",
+		"description": "sdfdasdssdfsfgfdnd",
+		"author": "O'tkir Hodasdshimov",
+		"pulish_year": 2012,
+		"cover_photo_url": "/dasd/asdasd/ads",
+		"created_at": "2022-08-10T10:55:51.736Z",
+		"updated_at": "2022-08-10T10:55:51.736Z"
+	},
+	{
+		"id": 19,
+		"isbn": "ddfsd",
+		"title": "Mehrobdan Chayon",
+		"gener": "Badiy adabiyot",
+		"description": "sdfdasdssdfsfgfdnd",
+		"author": "O'tkir Hodasdshimov",
+		"pulish_year": 2012,
+		"cover_photo_url": "/dasd/asdasd/ads",
+		"created_at": "2022-08-10T10:55:51.983Z",
+		"updated_at": "2022-08-10T10:55:51.983Z"
+	},
+	{
+		"id": 1,
+		"isbn": "yang avlod",
+		"title": "O'tksdasdan nasdaew",
+		"gener": "Badiy dasdaadabiyot",
+		"description": "sdfdasdssdfsfgfdnd",
+		"author": "O'tkir Hodasdshimov",
+		"pulish_year": 2012,
+		"cover_photo_url": "/dasd/asdasd/ads",
+		"created_at": "2022-08-11T07:54:16.284Z",
+		"updated_at": "2022-08-11T07:54:16.284Z"
+	},
+	{
+		"id": 1,
+		"isbn": "Shaxmat",
+		"title": "O'tksdasdan nasdaew",
+		"gener": "Badiy dasdaadabiyot",
+		"description": "sdfdasdssdfsfgfdnd",
+		"author": "O'tkir Hodasdshimov",
+		"pulish_year": 2012,
+		"cover_photo_url": "/dasd/asdasd/ads",
+		"created_at": "2022-08-11T12:21:28.394Z",
+		"updated_at": "2022-08-11T12:21:28.394Z"
+	},
+	{
+		"id": 2,
+		"isbn": "o'zgartirildi",
+		"title": "O'tksdasdan nasdaew",
+		"gener": "Badiy dasdaadabiyot",
+		"description": "sdfdasdssdfsfgfdnd",
+		"author": "O'tkir Hodasdshimov",
+		"pulish_year": 2012,
+		"cover_photo_url": "/dasd/asdasd/ads",
+		"created_at": "2022-08-11T12:21:39.626Z",
+		"updated_at": "2022-08-11T12:24:10.777Z"
 	}
 ]

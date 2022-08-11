@@ -1,7 +1,6 @@
 {
   "name": "bookstore",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +14,14 @@
     "fs-extra": "^10.1.0",
     "joi": "^17.6.0",
     "nodemon": "^2.0.19"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbdulahadAbduqahhorov/bookstore.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AbdulahadAbduqahhorov/bookstore/issues"
+  },
+  "homepage": "https://github.com/AbdulahadAbduqahhorov/bookstore#readme",
+  "description": ""
 }

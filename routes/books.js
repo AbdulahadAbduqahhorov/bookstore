@@ -9,11 +9,12 @@ let idCounter = 0
 router.use(bodyParser.json())
 
 
-var books = []
-books = helpers.readFromJSONFile("books.json")
+
+
 
 
 router.get('/', (req, res) => {
+    let books = helpers.readFromJSONFile("books.json")
     let search = req.query.search
     if (!search) {
         search=""
@@ -31,6 +32,7 @@ router.get('/', (req, res) => {
 })
 
 router.get('/:id', (req, res) => {
+    let books = helpers.readFromJSONFile("books.json")
     const id = req.params.id
     const book = books.find(c => c.id === parseInt(id))
     if (!book) return res.status(404).send(`The book with id of ${id} not found `)
@@ -38,6 +40,7 @@ router.get('/:id', (req, res) => {
 })
 
 router.post('/', (req, res) => {
+    let books = helpers.readFromJSONFile("books.json")
     const { error } = validate_book(req.body)
     if (error) {
         res.status(400).send(error.details[0].message)
@@ -63,6 +66,7 @@ router.post('/', (req, res) => {
 
 })
 router.put('/:id', (req, res) => {
+    let books = helpers.readFromJSONFile("books.json")
     let id = req.params.id
     const book = books.find(c => c.id === parseInt(id))
     if (!book) return res.status(404).send(`The book with id of ${id} not found `)
@@ -89,6 +93,7 @@ router.put('/:id', (req, res) => {
 })
 
 router.delete('/:id', (req, res) => {
+    let books = helpers.readFromJSONFile("books.json")
 
     const id = req.params.id
     const book = books.find(c => c.id === parseInt(id))
@@ -120,5 +125,4 @@ function validate_book(book) {
 
 
 module.exports = router
-
 

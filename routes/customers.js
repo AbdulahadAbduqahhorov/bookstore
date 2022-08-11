@@ -9,11 +9,11 @@ let idCounter = 0
 router.use(bodyParser.json())
 
 
-var customers = []
-customers = helpers.readFromJSONFile("customers.json")
+
 
 
 router.get('/', (req, res) => {
+    let customers = helpers.readFromJSONFile("customers.json")
     let search = req.query.search
     if (!search) {
         search=""
@@ -32,6 +32,7 @@ router.get('/', (req, res) => {
 })
 
 router.get('/:id', (req, res) => {
+    let customers = helpers.readFromJSONFile("customers.json")
     const id = req.params.id
     const customer = customers.find(c => c.id === parseInt(id))
     if (!customer) return res.status(404).send(`The customer with id of ${id} not found `)
@@ -39,6 +40,7 @@ router.get('/:id', (req, res) => {
 })
 
 router.post('/', (req, res) => {
+    let customers = helpers.readFromJSONFile("customers.json")
     const { error } = validate_customer(req.body)
     if (error) {
         res.status(400).send(error.details[0].message)
@@ -63,6 +65,7 @@ router.post('/', (req, res) => {
 
 })
 router.put('/:id', (req, res) => {
+    let customers = helpers.readFromJSONFile("customers.json")
     let id = req.params.id
     const customer = customers.find(c => c.id === parseInt(id))
     if (!customer) return res.status(404).send(`The customer with id of ${id} not found `)
@@ -88,7 +91,7 @@ router.put('/:id', (req, res) => {
 })
 
 router.delete('/:id', (req, res) => {
-
+    let customers = helpers.readFromJSONFile("customers.json")
     const id = req.params.id
     const customer = customers.find(c => c.id === parseInt(id))
     if (!customer) return res.status(404).send(`The customer with id of ${id} not found `)

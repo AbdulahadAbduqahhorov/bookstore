@@ -1,18 +1,18 @@
 [
 	{
-		"customer_id": 1,
-		"book_id": 1,
-		"booked_day": "2022-05-22",
-		"returned_day": "2022-09-26",
-		"created_at": "2022-08-10T04:32:22.105Z",
-		"updated_at": "2022-08-10T04:32:22.105Z"
+		"customer_id": 11,
+		"book_id": 12,
+		"booked_day": "2022-08-11T14:15:09.637Z",
+		"returned_day": "2022-08-11T14:15:19.599Z",
+		"created_at": "2022-08-11T14:15:09.637Z",
+		"updated_at": "2022-08-11T14:15:19.599Z"
 	},
 	{
-		"customer_id": 1,
-		"book_id": 23,
-		"booked_day": "2022-05-22",
-		"returned_day": "2022-09-26",
-		"created_at": "2022-08-10T04:34:10.133Z",
-		"updated_at": "2022-08-10T04:34:10.133Z"
+		"customer_id": 11,
+		"book_id": 13,
+		"booked_day": "2022-08-11T14:15:31.143Z",
+		"returned_day": "2022-08-11T14:15:37.674Z",
+		"created_at": "2022-08-11T14:15:31.143Z",
+		"updated_at": "2022-08-11T14:15:37.674Z"
 	}
 ]
